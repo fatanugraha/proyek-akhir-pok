@@ -1,0 +1,41 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.12</VERSION>
+ <DEVICE>ATmega8515</DEVICE>
+ <WORKING_DIR>C:\Users\FataNugraha\Documents\proyek-akhir-pok</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8515def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <main><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>15</LINE></main>
+  <lcd_init><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>42</LINE></lcd_init>
+  <lcd_clear><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>81</LINE></lcd_clear>
+  <msg_welcome_row1><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>133</LINE></msg_welcome_row1>
+  <lcd_show_string><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>57</LINE></lcd_show_string>
+  <lcd_set_position><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>76</LINE></lcd_set_position>
+  <msg_welcome_row2><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>135</LINE></msg_welcome_row2>
+  <forever><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>39</LINE></forever>
+  <lcd_set_option><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>87</LINE></lcd_set_option>
+  <lcd_show_string_loop><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>61</LINE></lcd_show_string_loop>
+  <return><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>95</LINE></return>
+  <lcd_show_char><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>71</LINE></lcd_show_char>
+  <DELAY_01><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>109</LINE></DELAY_01>
+  <DELAY_00><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>98</LINE></DELAY_00>
+  <L0><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>103</LINE></L0>
+  <L1><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>114</LINE></L1>
+  <DELAY_02><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>121</LINE></DELAY_02>
+  <L2><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>126</LINE></L2>
+ </LABELS>
+</ASSEMBLER_INFO>

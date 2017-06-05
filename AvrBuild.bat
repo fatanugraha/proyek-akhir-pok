@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "C:\Users\FataNugraha\Documents\proyek-akhir-pok\labels.tmp" -fI -W+ie -o "C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.hex" -d "C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.obj" -e "C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.eep" -m "C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.map" "C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm"
