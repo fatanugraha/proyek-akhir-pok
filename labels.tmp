@@ -19,23 +19,35 @@
   <FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.map</FILE>
  </OUTPUT_FILES>
  <LABELS>
-  <main><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>15</LINE></main>
-  <lcd_init><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>42</LINE></lcd_init>
-  <lcd_clear><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>81</LINE></lcd_clear>
-  <msg_welcome_row1><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>133</LINE></msg_welcome_row1>
-  <lcd_show_string><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>57</LINE></lcd_show_string>
-  <lcd_set_position><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>76</LINE></lcd_set_position>
-  <msg_welcome_row2><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>135</LINE></msg_welcome_row2>
-  <forever><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>39</LINE></forever>
-  <lcd_set_option><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>87</LINE></lcd_set_option>
-  <lcd_show_string_loop><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>61</LINE></lcd_show_string_loop>
-  <return><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>95</LINE></return>
-  <lcd_show_char><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>71</LINE></lcd_show_char>
-  <DELAY_01><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>109</LINE></DELAY_01>
-  <DELAY_00><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>98</LINE></DELAY_00>
-  <L0><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>103</LINE></L0>
-  <L1><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>114</LINE></L1>
-  <DELAY_02><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>121</LINE></DELAY_02>
-  <L2><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>126</LINE></L2>
+  <main><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>34</LINE></main>
+  <int_next_shift><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>29</LINE></int_next_shift>
+  <int_prev_shift><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>24</LINE></int_prev_shift>
+  <led_prev_shift><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>76</LINE></led_prev_shift>
+  <led_update><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>129</LINE></led_update>
+  <led_next_shift><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>99</LINE></led_next_shift>
+  <lcd_init><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>141</LINE></lcd_init>
+  <lcd_clear><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>180</LINE></lcd_clear>
+  <led_init><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>122</LINE></led_init>
+  <msg_welcome_row1><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>232</LINE></msg_welcome_row1>
+  <lcd_show_string><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>156</LINE></lcd_show_string>
+  <lcd_set_position><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>175</LINE></lcd_set_position>
+  <msg_welcome_row2><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>234</LINE></msg_welcome_row2>
+  <forever><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>72</LINE></forever>
+  <led_prev_shift_no_mod><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>82</LINE></led_prev_shift_no_mod>
+  <led_prev_shift_no_change><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>96</LINE></led_prev_shift_no_change>
+  <led_prev_shift_day_no_mod><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>93</LINE></led_prev_shift_day_no_mod>
+  <led_next_shift_no_mod><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>105</LINE></led_next_shift_no_mod>
+  <led_next_shift_no_change><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>119</LINE></led_next_shift_no_change>
+  <led_next_shift_day_no_mod><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>116</LINE></led_next_shift_day_no_mod>
+  <lcd_set_option><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>186</LINE></lcd_set_option>
+  <lcd_show_string_loop><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>160</LINE></lcd_show_string_loop>
+  <return><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>194</LINE></return>
+  <lcd_show_char><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>170</LINE></lcd_show_char>
+  <DELAY_01><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>208</LINE></DELAY_01>
+  <DELAY_00><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>197</LINE></DELAY_00>
+  <L0><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>202</LINE></L0>
+  <L1><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>213</LINE></L1>
+  <DELAY_02><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>220</LINE></DELAY_02>
+  <L2><FILE>C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm</FILE><LINE>225</LINE></L2>
  </LABELS>
 </ASSEMBLER_INFO>

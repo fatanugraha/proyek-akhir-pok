@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.1.12  C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm Mon Jun 05 16:50:44 2017
+AVRASM ver. 2.1.12  C:\Users\FataNugraha\Documents\proyek-akhir-pok\ProyekAkhir.asm Mon Jun 05 17:57:12 2017
 
 
 EQU  SIGNATURE_000 0000001e
@@ -471,24 +471,39 @@ EQU  OC0addr      0000000e
 EQU  ERDYaddr     0000000f
 EQU  SPMRaddr     00000010
 EQU  INT_VECTORS_SIZE 00000011
+DEF  time_info    r14
+DEF  day_info     r15
 DEF  tmp          r16
+DEF  tmp2         r17
 DEF  arg_1        r24
 DEF  arg_2        r25
-CSEG main         00000001
-CSEG lcd_init     00000010
-CSEG lcd_clear    00000026
-CSEG msg_welcome_row1 00000047
-CSEG lcd_show_string 00000017
-CSEG lcd_set_position 00000023
-CSEG msg_welcome_row2 00000050
-CSEG forever      0000000f
-CSEG lcd_set_option 00000029
-CSEG lcd_show_string_loop 00000019
-CSEG return       0000002f
-CSEG lcd_show_char 00000020
-CSEG DELAY_01     00000037
-CSEG DELAY_00     00000030
-CSEG L0           00000032
-CSEG L1           00000039
-CSEG DELAY_02     0000003f
-CSEG L2           00000041
+CSEG main         00000009
+CSEG int_next_shift 00000006
+CSEG int_prev_shift 00000003
+CSEG led_prev_shift 00000022
+CSEG led_update   00000045
+CSEG led_next_shift 00000031
+CSEG lcd_init     0000004e
+CSEG lcd_clear    00000064
+CSEG led_init     00000040
+CSEG msg_welcome_row1 00000085
+CSEG lcd_show_string 00000055
+CSEG lcd_set_position 00000061
+CSEG msg_welcome_row2 0000008e
+CSEG forever      00000021
+CSEG led_prev_shift_no_mod 00000027
+CSEG led_prev_shift_no_change 00000030
+CSEG led_prev_shift_day_no_mod 0000002f
+CSEG led_next_shift_no_mod 00000036
+CSEG led_next_shift_no_change 0000003f
+CSEG led_next_shift_day_no_mod 0000003e
+CSEG lcd_set_option 00000067
+CSEG lcd_show_string_loop 00000057
+CSEG return       0000006d
+CSEG lcd_show_char 0000005e
+CSEG DELAY_01     00000075
+CSEG DELAY_00     0000006e
+CSEG L0           00000070
+CSEG L1           00000077
+CSEG DELAY_02     0000007d
+CSEG L2           0000007f
