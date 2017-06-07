@@ -3,10 +3,10 @@
    <General>
       <Build>2005</Build>
       <Position>
-         <top>435</top>
-         <bottom>907</bottom>
-         <left>1175</left>
-         <right>1825</right>
+         <top>233</top>
+         <bottom>864</bottom>
+         <left>1183</left>
+         <right>1833</right>
       </Position>
       <StayOnTop>1</StayOnTop>
       <Target>ATmega8535</Target>
@@ -15,8 +15,8 @@
       <LCD>
          <Name>LCD1</Name>
          <Position>
-            <top>0</top>
-            <left>0</left>
+            <top>19</top>
+            <left>7</left>
          </Position>
          <DisplayConfig>
             <columns>30</columns>
@@ -31,25 +31,25 @@
                <LowNibble>N.C.</LowNibble>
             </DataPort>
             <EnablePin>
-               <Port>PORTA</Port>
-               <Bit>0</Bit>
+               <Port>PORTD</Port>
+               <Bit>4</Bit>
             </EnablePin>
             <RW_Pin>
                <WriteOnly>0</WriteOnly>
-               <Port>PORTA</Port>
-               <Bit>2</Bit>
+               <Port>PORTD</Port>
+               <Bit>6</Bit>
             </RW_Pin>
             <RS_Pin>
-               <Port>PORTA</Port>
-               <Bit>1</Bit>
+               <Port>PORTD</Port>
+               <Bit>5</Bit>
             </RS_Pin>
          </PortMapping>
       </LCD>
       <Buttons>
          <Name>Buttons1</Name>
          <Position>
-            <top>52</top>
-            <left>52</left>
+            <top>159</top>
+            <left>481</left>
          </Position>
          <Config index="0">
             <Name>Next Shift</Name>
@@ -70,16 +70,16 @@
          <Config index="2">
             <Name></Name>
             <PortPin>
-               <Port>PORTD</Port>
-               <Bit>6</Bit>
+               <Port>N.C.</Port>
+               <Bit>0</Bit>
             </PortPin>
             <Invert>0</Invert>
          </Config>
          <Config index="3">
             <Name></Name>
             <PortPin>
-               <Port>PORTD</Port>
-               <Bit>7</Bit>
+               <Port>N.C.</Port>
+               <Bit>0</Bit>
             </PortPin>
             <Invert>0</Invert>
          </Config>
@@ -89,14 +89,14 @@
       <LEDs>
          <Name>LEDs1</Name>
          <Position>
-            <top>4294967294</top>
-            <left>445</left>
+            <top>157</top>
+            <left>345</left>
          </Position>
          <Config index="0">
             <Color>Red</Color>
             <Name>Senin</Name>
             <PortPin>
-               <Port>PORTC</Port>
+               <Port>PORTA</Port>
                <Bit>0</Bit>
             </PortPin>
             <Invert>0</Invert>
@@ -105,7 +105,7 @@
             <Color>Red</Color>
             <Name>Selasa</Name>
             <PortPin>
-               <Port>PORTC</Port>
+               <Port>PORTA</Port>
                <Bit>1</Bit>
             </PortPin>
             <Invert>0</Invert>
@@ -114,7 +114,7 @@
             <Color>Red</Color>
             <Name>Rabu</Name>
             <PortPin>
-               <Port>PORTC</Port>
+               <Port>PORTA</Port>
                <Bit>2</Bit>
             </PortPin>
             <Invert>0</Invert>
@@ -123,7 +123,7 @@
             <Color>Red</Color>
             <Name>Kamis</Name>
             <PortPin>
-               <Port>PORTC</Port>
+               <Port>PORTA</Port>
                <Bit>3</Bit>
             </PortPin>
             <Invert>0</Invert>
@@ -132,7 +132,7 @@
             <Color>Red</Color>
             <Name>Jumat</Name>
             <PortPin>
-               <Port>PORTC</Port>
+               <Port>PORTA</Port>
                <Bit>4</Bit>
             </PortPin>
             <Invert>0</Invert>
@@ -141,7 +141,7 @@
             <Color>Red</Color>
             <Name>Pagi</Name>
             <PortPin>
-               <Port>PORTC</Port>
+               <Port>PORTA</Port>
                <Bit>5</Bit>
             </PortPin>
             <Invert>0</Invert>
@@ -150,7 +150,7 @@
             <Color>Red</Color>
             <Name>Siang</Name>
             <PortPin>
-               <Port>PORTC</Port>
+               <Port>PORTA</Port>
                <Bit>6</Bit>
             </PortPin>
             <Invert>0</Invert>
@@ -159,11 +159,118 @@
             <Color>Red</Color>
             <Name>Sore</Name>
             <PortPin>
-               <Port>PORTC</Port>
+               <Port>PORTA</Port>
                <Bit>7</Bit>
             </PortPin>
             <Invert>0</Invert>
          </Config>
       </LEDs>
+      <Keypad>
+         <Name>Keypad1</Name>
+         <Position>
+            <top>100</top>
+            <left>9</left>
+         </Position>
+         <PortMapping>
+            <Strobe index="0">
+               <Port>PORTC</Port>
+               <Bit>7</Bit>
+            </Strobe>
+            <Strobe index="1">
+               <Port>PORTC</Port>
+               <Bit>6</Bit>
+            </Strobe>
+            <Strobe index="2">
+               <Port>PORTC</Port>
+               <Bit>5</Bit>
+            </Strobe>
+            <Strobe index="3">
+               <Port>PORTC</Port>
+               <Bit>4</Bit>
+            </Strobe>
+            <Input index="0">
+               <Port>PORTC</Port>
+               <Bit>0</Bit>
+            </Input>
+            <Input index="1">
+               <Port>PORTC</Port>
+               <Bit>1</Bit>
+            </Input>
+            <Input index="2">
+               <Port>PORTC</Port>
+               <Bit>2</Bit>
+            </Input>
+            <Input index="3">
+               <Port>PORTC</Port>
+               <Bit>3</Bit>
+            </Input>
+         </PortMapping>
+         <Buttons>
+            <Button index="0">
+               <Caption>1</Caption>
+               <PCKey>1953841724</PCKey>
+            </Button>
+            <Button index="1">
+               <Caption>5</Caption>
+               <PCKey>537529662</PCKey>
+            </Button>
+            <Button index="2">
+               <Caption>9</Caption>
+               <PCKey>538976288</PCKey>
+            </Button>
+            <Button index="3">
+               <Caption>PREV</Caption>
+               <PCKey>1967275621</PCKey>
+            </Button>
+            <Button index="4">
+               <Caption>2</Caption>
+               <PCKey>792473971</PCKey>
+            </Button>
+            <Button index="5">
+               <Caption>6</Caption>
+               <PCKey>537529662</PCKey>
+            </Button>
+            <Button index="6">
+               <Caption></Caption>
+               <PCKey>538976288</PCKey>
+            </Button>
+            <Button index="7">
+               <Caption>NEXT</Caption>
+               <PCKey>1869182057</PCKey>
+            </Button>
+            <Button index="8">
+               <Caption>3</Caption>
+               <PCKey>538976288</PCKey>
+            </Button>
+            <Button index="9">
+               <Caption>7</Caption>
+               <PCKey>538976288</PCKey>
+            </Button>
+            <Button index="10">
+               <Caption></Caption>
+               <PCKey>926167358</PCKey>
+            </Button>
+            <Button index="11">
+               <Caption>ABSEN</Caption>
+               <PCKey>168640112</PCKey>
+            </Button>
+            <Button index="12">
+               <Caption>4</Caption>
+               <PCKey>538976288</PCKey>
+            </Button>
+            <Button index="13">
+               <Caption>8</Caption>
+               <PCKey>1717922876</PCKey>
+            </Button>
+            <Button index="14">
+               <Caption>BACK</Caption>
+               <PCKey>1701588796</PCKey>
+            </Button>
+            <Button index="15">
+               <Caption>INFO</Caption>
+               <PCKey>538976266</PCKey>
+            </Button>
+         </Buttons>
+      </Keypad>
    </Views>
 </HAPSIM>
